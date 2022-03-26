@@ -1,7 +1,6 @@
-
 body {
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main_box {
@@ -9,11 +8,9 @@ body {
   width: 500px;
   height: 500px;
   text-align: center;
-
 }
 
 .box {
-  
   line-height: 36px;
   width: 500px;
   height: 500px;
@@ -33,32 +30,31 @@ body {
   margin: 20px 0;
 }
 
-.links li, ul {
-    margin-top: 10px;
-    margin-right: 10px;
-    list-style-type: none;
-    /* list-style: inside;    will show the circle style in the center */ 
-
-  }
+.links li,
+ul {
+  margin-top: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  /* list-style: inside;    will show the circle style in the center */
+}
 
 .links a {
   color: #005ff8;
-  text-decoration: none;    /* removes the underline of the link */
+  text-decoration: none; /* removes the underline of the link */
   cursor: pointer;
   outline: none;
 }
 
 .links a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 h1 {
   margin: 0px;
 }
 
-
 figure img {
   margin: auto;
-  display:block;
+  display: block;
   width: 300px;
 }
