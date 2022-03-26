@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.header_box {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100px;
+/*   border: 1px solid black; */
+  text-align: center;
+  margin: auto;
+  padding: 0px 118px;
+  
+}
+
+
+.header_links {
+  font-family:'Rubik', sans-serif;
+  font-weight: 100;
+  float:right;
+  padding: 20px 20px;
+/*   border: 1px black solid; */
+  width: 65%;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.header_links a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+  text-decoration: none;    /* removes the underline of the link */
+  cursor: pointer;
+  outline: none;
+}
+
+.header_links a:hover {
+  color: lightslategray;
+}
+
+.logo {
+  text-align: left;
+  float: left;
+  padding: 20px 20px;
+  /* border: 1px black solid; */
+}
+
+span {
+  padding: 10px;  
+}
+
+.main_content {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: auto;
+  padding: 70px 118px;
+
+ 
+
+}
+
+/* .main_left {
+
+} */
+
+.main_left {
+  float: left;
+  padding: 20px 20px;
+  /* border: 1px black solid; */
+  text-align: center;
+  width: 35%;
+}
+
+.main_left img{
+
+  width: 400px;
+  
+}
+
+.main_right {
+  text-align: center;
+  float: right;
+ /*  border: 1px black solid; */
+  width: 65%;
+  height: 540px;
+  padding: 170px 50px;
+  color: black;
+  font-size: 50px;
+  font-family:'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 10px;
+  align-content: center;
+}
+.main_right p{
+  font-size: 18px;
+  font-family:'Rubik', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 0px;
+}
+
+.footer_icons {
+  text-align: center;
+  font-size:22px;  /* can also use the icon format fa-sm \ fa- lg ... */
+}
+
+.footer_icons a{
+  color: black;
+  padding: 5px;
+  
+}
+
+.footer_links {
+  text-align: center;
+  font-size:16px;  /* can also use the icon format fa-sm \ fa- lg ... */
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.footer_links a, h3 {
+  letter-spacing: 3px;
+  color: black;
+  line-height: 1.6;  /* recommanded line height */
+  
+
+}
